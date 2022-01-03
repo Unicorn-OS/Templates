@@ -1,6 +1,6 @@
 ---
-- hosts: test
-  gather_facts: yes
+- hosts: local
+  gather_facts: false
 
   roles:
-  - role: test
+  - role: Home Templates

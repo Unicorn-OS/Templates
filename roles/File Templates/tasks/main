@@ -1,7 +1,0 @@
----
-#- include_tasks: '{{ ansible_os_family }}/{{ ansible_distribution }}/{{ ansible_distribution_major_version }}'
-
-- name: static Template examples
-  ansible.builtin.copy:
-    src: Templates
-    dest: '/home/{{ansible_user}}/Templates'
