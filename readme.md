@@ -1,2 +1,2 @@
 # Templates
-User Template files
+Templates for /home/{{user}}/Templates
